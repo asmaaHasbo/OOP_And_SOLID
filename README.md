@@ -78,6 +78,9 @@ final order = OrderModel(
   customerName: 'Ahmed',
   drink: tea,
   specialInstructions: SpecialInstructions(name: 'Extra sugar', price: 1.0),
+
+<img width="1036" height="317" alt="image" src="https://github.com/user-attachments/assets/4388ee50-6f32-4573-b03a-1b792170ab5c" />
+
 );
 repository.addOrder(order); // Prints: Order for Ahmed added: Tea
 order.markCompleted(); // Prints tea preparation steps
